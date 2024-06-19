@@ -79,6 +79,11 @@ main {
 .attribution {
   text-align: center;
   padding: 10px 0;
+  color: var(--WengeBrown);
+}
+
+.attribution a {
+  color: var(--WengeBrown);
 }
 
 .recipe {
