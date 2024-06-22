@@ -253,3 +253,31 @@ main {
   font-family: "Outfit-Bold";
   color: var(--Nutmeg);
 }
+
+@media (max-width: 375px) {
+  .recipe {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    border-radius: 0px;
+    gap: 0px;
+  }
+
+  .recipe__image {
+    border-radius: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  .component__title--big {
+    margin: 0;
+    font-size: 35px;
+  }
+
+  .recipe__text-content {
+    letter-spacing: 0.5px;
+    margin: 21px;
+    line-height: 1.5;
+  }
+}
